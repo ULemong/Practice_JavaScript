@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>JavaScript</h1>
+    <input id="night-day" type="button" value="night" onclick="
+      if(document.querySelector('#night-day').value === 'night')
+      {
+        document.querySelector('body').style.backgroundColor = 'black';
+        document.querySelector('body').style.color = 'white';
+        document.querySelector('#night-day').value = 'day';
+      }
+      else
+      {
+        document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.color = 'black';
+        document.querySelector('#night-day').value = 'night';
+      }
+    ">
+    <p>
+      JavaScript often abbreviated as JS, is a high-level
+    </p>
+  </body>
+</html>
